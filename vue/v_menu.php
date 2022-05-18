@@ -35,6 +35,8 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Mon dossier</a>
                       <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./?action=inscription">Inscription</a>
+                      <a class="dropdown-item" href="./?action=connexion">Connexion</a>
                       <a class="dropdown-item" href="#">Mes prêts en cours</a>
                       <a class="dropdown-item" href="#">Mes réservations</a>
                       <a class="dropdown-item" href="#">Mes frais</a>

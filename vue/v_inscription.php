@@ -12,7 +12,7 @@
  <div align="center"> 
  <h1> Inscription </h2> 
  <br/> 
- <form method="POST" action=""> 
+ <form method="POST" action='./v_inscription.php'> 
 
  <table>
  <tr>
@@ -33,24 +33,22 @@
  </tr>
  <tr>
      <td align="right" >
-     <label for="password">Mot de passe : </label>
+     <label for="mdp">Mot de passe : </label>
      </td>
  <td>
- <input type="password" placeholder ="Votre mot de passe" id="pass" name ="pass" /> 
+ <input type="password" placeholder ="Votre mot de passe" id="pass" name ="mdp" /> 
  </td>
- </tr>
- <tr>
-     <td align="right">
-     <label for="password2">Confirmation mot de passe : </label>
- </td>
- <td>
- <input type="password" placeholder ="Confirmation du mot de passe" id="pass" name ="password2" /> 
-     </td>
  </tr>
  </table> 
  </br>
- <button type="submit" name="addInscrit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Inscription</a>
-
+ <input type="submit" name="forminscription" value="Je m'inscris" />
+ <br>
+<?php
+if(isset($erreur)){
+    echo $erreur;
+}
+?>
+</br>
 </body>
 </html>
 </body>

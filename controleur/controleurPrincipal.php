@@ -20,6 +20,7 @@ function controleurPrincipal($action) {
 
 
 function chargerModeles($racine){
+    require_once("$racine/modele/inscriptionManager.php");
     require_once("$racine/modele/Manager.php");
     require_once("$racine/modele/Document.php");
     require_once("$racine/modele/Livre.php");
